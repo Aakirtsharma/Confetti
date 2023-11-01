@@ -1,5 +1,6 @@
 const envelope = document.querySelector(".envelope-wrapper");
 let mySound = new Audio("Aap Ki Taarif Mein Kya Kahein Aap Humari Jaan Ban Gaye - Khuda Haafiz ! Hindi.mp3");
+// use your own music by adding it to folder and replace ausio("replace here") you audio link
 envelope.addEventListener("click", () => {
   envelope.classList.toggle("flap");
 });
